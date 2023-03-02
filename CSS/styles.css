@@ -1,0 +1,27 @@
+.imgProductos{
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    margin-top: 1rem;
+    margin-bottom: 0.9rem;
+}
+
+.card{
+    display: flex;
+    align-items: center;
+    margin: 0.5rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+.colorBoton{
+    color: blueviolet;
+    background-color: aquamarine;
+    margin: 0.3rem;
+    
+}
+
+.colorBoton:hover{
+    color:aquamarine ;
+    background-color: blueviolet;
+}
