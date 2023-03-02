@@ -137,7 +137,7 @@ const mostrarCarrito = () => {
         <div class = "card"> 
            <img src = " ${ producto.img}" class= "card-img-top imgProductos" alt = " ${producto.nombre}" >
            <div> 
-           <h5> ${producto.nombre}</h5>
+           <h3> ${producto.nombre}</h3>
            <p> $${producto.precio}</p>
            <p> ${producto.cantidad}</p>
            <button class = "btn colorBoton" id="eliminar${producto.id}"> Eliminar Producto</button>
