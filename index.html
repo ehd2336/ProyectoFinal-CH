@@ -4,33 +4,49 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bs-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!--toastify-->
+   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
     <!-- LINK CSS-->
     <link rel="stylesheet" href="CSS/styles.css">
     <title>Tienda Online Astrológica</title>
 
 </head>
-<body class="container">
-    <h1 class="text-center">Bienvenido a tu Astrotienda  </h1>
+<body class="container-fluid">
+    <header>
+      
+    </header>
+
+    <h1 class="text-center titulo-tienda">Bienvenido a tu Astrotienda  </h1>
     <hr>
-    <div id="elementos" class="row"></div>
+    <div id="nuestrosItems" class="row contenedor-items"></div>
     
 
 <!-- carrito de compraas-->
 <hr>
-<h2>Carrito de Compras</h2>
-<h3> Su total es de <span id="total"></span></h3>
-<button class="btn colorBoton" id="verCarrito">Ver carrito</button>
-<button class="btn colorBoton" id="vaciarCarrito">Vaciar Carrito</button>
-
-<div id="changuito" class="row">
-    <button class="btn colorBoton" id="finalizarCompra">Finalizar Compra</button>
+<h2 class="h2-carrito">Carrito de Compras</h2>
+<h3 class="h3-total"> Su total es de <span id="total"></span></h3>
+<div class="botonContainer py-4">
+<button class="btn colorBoton" id="verChanguito">Ver carrito</button>
+<button class="btn colorBoton" id="vaciarChanguito">Vaciar Carrito</button>
+<button class="btn colorBoton" id="finalizarCompra">Finalizar Compra</button>
 </div>
 
+<div id="contenedorChanguito"></div>
 
+
+   <!-- script toastify-->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <!-- script sweet alert-->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!-- script bs-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <!-- JS-->
     <script src="main.js"></script>
-
-    
+<footer>
+<p class="creador"> Creado por Eric Dallas</p>
+<p class="derechos">2023 | Todos los derechos reservados</p>
+</footer>
 </body>
 </html>

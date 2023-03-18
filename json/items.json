@@ -1,0 +1,12 @@
+[
+    {"id": 1, "nombre":"Informe Escrito", "precio": 2000, "img": "img/papiro.png", "cantidad": 1},
+    {"id": 2, "nombre":"Revolucion Solar Escrita", "precio": 2000, "img": "img/revo-escrita.png", "cantidad": 1},
+    {"id": 3, "nombre":"Carta Natal Online", "precio": 3500, "img": "img/carta.png", "cantidad": 1},
+    {"id": 4, "nombre":"Carta Natal + Revo Online", "precio": 5000, "img": "img/carta-revo.png", "cantidad": 1},
+    {"id": 5, "nombre":"Revolución Solar Online", "precio": 2500, "img": "img/revo.png", "cantidad": 1},
+    {"id": 6, "nombre":"Carta Natal Online + Tarot", "precio": 4000, "img": "img/carta-tarot.png", "cantidad": 1},
+    {"id": 7, "nombre":"Tirada de Tarot", "precio": 1500, "img": "img/tarot.png", "cantidad": 1},
+    {"id": 8, "nombre":"Taller de Venus", "precio": 4000, "img": "img/venus.png", "cantidad": 1},
+    {"id": 9, "nombre":"Taller de Marte", "precio": 4000, "img": "img/marte.png", "cantidad": 1},
+    {"id": 10, "nombre":"Taller de la Luna", "precio": 4000, "img": "img/luna.png", "cantidad": 1}
+  ]
